@@ -1,0 +1,78 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    font-style: italic;
+    background-color: black;
+    color: white;
+    width: auto;
+}
+button {
+    width: 9em;
+    height: 3em;
+    border-radius: 40px;
+    font-weight: bolder;
+    font-size: 1.45rem;
+    text-align: center;
+    border: none;
+    background-color: white;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.425) 1px 1px 3px;
+    
+}
+a {
+    text-decoration: none;
+    animation-name: Plim;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Plim {
+    0% {
+        color: black;
+    }
+    100% {
+        color: white;
+    }
+}
+button:hover {
+    background-color: rgba(255, 255, 255, 0.719);
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+    transition-property: all;
+    transition-duration: 1s
+}
+button:active {
+    background-color: rgba(255, 255, 255, 0.452);
+}
+.BoxButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+.Title {
+    font-size: 3.5em;
+    font-weight: bolder;
+    text-shadow:rgba(0, 0, 0, 0.5) 0px 0px 2px;
+}
+.SubTitle {
+    font-size: 1.5em;
+}
+
+@media (max-width: 800px)
+{
+  .Header
+   {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 5%;
+    width: 100vw;
+    padding-right: 5%;
+   }
+   
+}

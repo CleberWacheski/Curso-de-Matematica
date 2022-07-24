@@ -1,0 +1,15 @@
+.Diferencial {
+    margin-top: 40px;
+}
+.TitleDiferencial{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.listDiferencial {
+    padding: 0;
+    padding-left: 15px;
+    font-size: 20px;
+}
+li {
+    padding: 1.5px;
+}

@@ -1,0 +1,25 @@
+.MainContents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    width: auto;
+}
+.BlockMainTwo {
+    margin-top: 200px;
+}
+
+@media (max-width: 800px)
+{
+  .MainContents
+   {
+    display: inline-block;
+    width: 100vw;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    
+   }
+   .BlockMainTwo {
+    margin-top: 0;
+}
+}
